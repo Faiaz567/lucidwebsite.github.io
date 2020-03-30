@@ -1,0 +1,508 @@
+*{
+	padding: 0;
+	margin:0;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+
+/*header-section css start*/
+.header-section{
+	width: 100%;
+	height: 650px;
+	background: url(../images/bg.png) center top no-repeat;
+	background-size: cover;
+}
+
+.header-section .bg-light {
+    background-color: transparent !important;
+}
+.navbar-expand-lg .navbar-collapse{
+	       margin-right: -20px;
+}
+.navbar-expand-lg>.container{
+	    margin-top: 15px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+	background: url(../images/br.png) center bottom no-repeat;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#fff;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+     color: #fff;
+     background: url(../images/br.png) center bottom no-repeat;
+
+}
+
+.banner-section{
+	padding: 90px 0px;
+}
+
+.banner-section .banner-inner h4{
+	text-transform: uppercase;
+	color: #096190;
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 20px;
+
+
+}
+
+.banner-section .banner-inner h1{
+	color: #fff;
+	font-weight: 500;
+	line-height: 38px;
+	margin-bottom: 20px;
+
+}
+
+.banner-section .banner-inner p{
+	color: #707173;
+	margin-bottom: 40px;
+
+}
+
+.banner-section .banner-inner .buttons .btn-info{
+   padding: 10px 30px;
+   background: #008ed6;
+   margin-right: 15px;
+
+}
+.banner-section .banner-inner .buttons .btn-info:hover{
+	background: transparent;
+	color: #008ed6;
+	transition: 1s ease-in;
+	border: 1px solid #808080;
+
+}
+.banner-section .banner-inner .btn-primary{
+	 padding: 10px 30px;
+	background: transparent;
+	border: 1px solid #808080;
+
+}
+.banner-section .banner-inner .btn-primary:hover{
+	 background: #008ed6;
+	 transition: 1s;
+}
+
+/*header-section css end*/
+
+/*feature-section css start*/
+
+.feature-section{
+	width: 100%;
+	height: 550px;
+	padding: 50px 0px;
+}
+.col-md-3:hover{
+	background: url(../images/br.png) center bottom no-repeat;
+	}
+.feature-title h4{
+	text-transform: uppercase;
+	color: #008ed6;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+.feature-title h1{
+  font-weight: 500;
+}
+.feature-inner{
+	width: 100%;
+	padding: 60px 10px;
+
+}
+
+.feature-inner .img-div{
+	width: 70px;
+	height: 70px;
+	line-height: 60px;
+	margin: 0px auto;
+	border-radius: 50%;
+    border: 1px solid #808080;
+    text-align: center;
+
+	
+}
+.feature-inner h4{
+	color: #000;
+	margin-top: 20px;
+
+}
+.feature-inner p{
+    color: #707173;
+}
+/*feature-section css end*/
+
+/*aboutlong-section css start*/
+.about-long{
+	width: 100%;
+	border-top: 1px solid #c3c3c3;
+	padding: 50px 0px;
+}
+.about-right{
+	padding: 50px 0px;
+}
+.about-right h4{
+	text-transform: uppercase;
+	color: #008ed6;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+.about-right h2{
+	font-weight: 600;
+}
+.about-right p{
+	 color: #707173;
+	 margin-top: 10px;
+}
+.about-right .right-inner p img{
+	margin-right:  10px;
+}
+.about-right .right-inner p{
+	color: #000;
+	font-weight: 600;
+}
+/*aboutlong-section css end*/
+
+/*aboutshort-section css start*/
+.about-short{
+	width: 100%;
+	padding: 20px 0px;
+	background: #f2f2f2;
+}
+.about-short .col-md-5{
+	   padding: 130px 0px 80px 80px;
+}
+.about-short .col-md-5 h4{
+	text-transform: uppercase;
+	color: #008ed6;
+	font-size: 14px;
+	font-weight: 700;
+}
+.about-short .col-md-5 h2{
+	font-weight: 600;
+}
+.about-short .col-md-5 p{
+	 color: #707173;
+	 margin-top: 10px;
+}
+.about-short .col-md-7{
+	padding-top: 15px;
+
+}
+/*aboutshort-section css end*/
+
+
+/*testimonial-section css start*/
+.testimonial{
+	width: 100%;
+	padding: 70px 0px;
+	background: url(../images/bg2.png) center top no-repeat;
+	background-size: cover;
+}
+
+.testimonial-title {
+    margin-bottom: 60px;
+}
+.testimonial-title h4{
+	text-transform: uppercase;
+	color: #008ed6;
+	font-size: 14px;
+	font-weight: 700;
+}
+.testimonial-title h1{
+	color: #fff;
+}
+
+.testimonial-inner {
+    width: 100%;
+   
+    margin-bottom: 40px;
+}
+.testimonial-inner p{
+	color: #fff;
+	font-size: 20px;
+	line-height: 28px;
+	font-style: italic;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 60px;
+}
+.media .mt-0{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 0px;
+
+}
+.media-body{
+	margin-top: 5px;
+}
+.media .media-body p{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 600;
+	font-style: normal;
+
+}
+
+/*testimonial-section css end*/
+
+
+/*eyecatcher-section css start*/
+.eye-catcher{
+	width: 100%;
+	padding: 40px 0px;
+	background: #15141a;
+}
+.eye-catcher .col-md-7 p{
+	color: #fff;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 10px;
+}
+.eye-catcher .col-md-7 p span{
+	font-weight: 600;
+}
+
+
+.eye-catcher .col-md-5 .btn-primary{
+	padding: 10px 30px;
+	background: transparent;
+	margin-right: 20px;
+	border: 1px solid #252429;
+}
+.eye-catcher .col-md-5 .btn-info{
+	background: #008ed6;
+	padding: 10px 30px;
+	border: 1px solid #252429;
+
+}
+.eye-catcher .col-md-5 .btn-primary:hover{
+	background: #008ed6;
+	transition: 0.5s;
+}
+.eye-catcher .col-md-5 .btn-info:hover{
+	background: transparent;
+	transition: 0.5s;
+	color:#008ed6; 
+}
+
+/*eyecatcher-section css end*/
+
+/*price-section css start*/
+
+.price-section{
+	width: 100%;
+	padding: 70px 0px;
+}
+.price-inner{
+	padding: 0px 0px 35px;
+}
+.price-inner h4{
+	text-transform: uppercase;
+	color: #096190;
+	font-size: 14px;
+	font-weight: 700;	
+}
+
+.price-inner h1{
+	font-weight: 600;
+}
+.main-price{
+	width: 100%;
+}
+.card-header{
+	width: 100%;
+	background: transparent;
+	padding: 10px;
+}
+.card-header h3{
+	font-weight: bold;
+	font-size: 20px;
+}
+.card-body{
+	width: 100%;
+	padding: 0px 0px 20px;
+	margin: 0px;
+}
+.card-body .card-title h1{
+	font-size: 50px;
+    font-weight: 600;
+    margin-top: 15px;
+	
+
+}
+.card-title{
+	padding: 10px 0px;
+    border-bottom: 1px solid #cacaca;
+}
+ .card-body .card-title p{
+	color:  #cacaca;
+	margin-top: -15px;
+
+}
+
+.card-body.price-in{
+	padding: 20px 0px;
+
+}
+
+.price-in .card-text{
+    color: #cacaca;
+    padding: 20px;
+}
+
+
+.price-in .card-text span{
+	color: #008ed6;
+}
+.price-in .btn{
+	background: transparent;
+	color:#008ed6;
+	padding: 10px 30px;
+	border: 1px solid #cacaca;
+	font-weight: 600; 
+}
+
+.main-price:hover .card-header h3{
+	color: #008ed6;
+}
+.main-price:hover .card-title{
+	color: #fff;
+	background: #008ed6;
+}
+.main-price:hover .btn{
+	color: #fff;
+	background: #008ed6;
+}
+
+/*price-section css end*/
+
+/*contact-section css start*/
+
+.contact-section{
+	width: 100%;
+	height: 680px;
+	background: #ededed;
+}
+.contact-section .contact-title{
+	width: 100%;
+	padding: 35px 0px;
+}
+
+.contact-section .contact-title h4{
+	font-size: 13px;
+	color: #008ed6;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.contact-section .contact-title h2{
+	font-weight: 600;
+}
+
+.contact-section .row{
+	text-align: center;
+}
+.contact-section .row .col-md-4{
+	text-align: center;
+}
+
+.contact-section .row .col-md-4 p{
+	padding: 20px 0px;
+	color: #c6c6c6;
+	font-weight: 500;
+}
+
+.main-form{
+	width: 100%;
+	padding: 68px 50px 31px;
+	background: #000;
+	margin-top: 52px;
+}
+ .form-control {
+    display: block;
+    width: 100%;
+   height: auto;
+    padding: 13px 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #323136;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+textarea.form-control {
+    height: 184px;
+}
+.form-group .btn{
+	padding: 8px 20px;
+	background:#008ed6;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.form-group .btn:hover{
+	background: transparent;
+	color: #0099cc;
+	transition: 1s ease-in;
+}
+/*contact-section css end*/
+.map{
+	width: 100%;
+}
+
+.footer-section{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	background: #15141a;
+
+}
+.icon{
+	width: 100%;
+	margin: 10px 0px;
+}
+.icon-inner{
+	color: #343339;
+	padding: 20px 10px;
+}
+.footer-section p{
+	color: #343339;
+	text-transform: uppercase;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 17px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    }
