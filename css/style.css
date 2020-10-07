@@ -18,7 +18,6 @@ a,a:hover{
 /*header-section css start*/
 .header-section{
 	width: 100%;
-	height: 650px;
 	background: url(../images/bg.png) center top no-repeat;
 	background-size: cover;
 }
@@ -50,9 +49,12 @@ a,a:hover{
 }
 
 .banner-section{
-	padding: 90px 0px;
+	width: 100%;
+	padding: 90px 0px 150px;
 }
-
+.banner-section .banner-inner{
+	width: 100%;
+}
 .banner-section .banner-inner h4{
 	text-transform: uppercase;
 	color: #096190;
@@ -107,8 +109,10 @@ a,a:hover{
 
 .feature-section{
 	width: 100%;
-	height: 550px;
-	padding: 50px 0px;
+	float: left;
+	padding: 80px 0px;
+
+	
 }
 .col-md-3:hover{
 	background: url(../images/br.png) center bottom no-repeat;
@@ -153,11 +157,16 @@ a,a:hover{
 /*aboutlong-section css start*/
 .about-long{
 	width: 100%;
+
 	border-top: 1px solid #c3c3c3;
 	padding: 50px 0px;
 }
 .about-right{
 	padding: 50px 0px;
+	width: 100%;
+}
+.about-left img{
+	width: 100%;
 }
 .about-right h4{
 	text-transform: uppercase;
@@ -187,6 +196,10 @@ a,a:hover{
 	width: 100%;
 	padding: 20px 0px;
 	background: #f2f2f2;
+}
+.about-short-phone img{
+width: 100%;
+
 }
 .about-short .col-md-5{
 	   padding: 130px 0px 80px 80px;
@@ -288,11 +301,11 @@ a,a:hover{
 }
 
 
-.eye-catcher .col-md-5 .btn-primary{
-	padding: 10px 30px;
-	background: transparent;
-	margin-right: 20px;
-	border: 1px solid #252429;
+.eye-catcher .col-md-5 .btn-primary {
+    padding: 10px 30px;
+    background: transparent;
+    margin-right: 20px;
+    border: 1px solid #eee;
 }
 .eye-catcher .col-md-5 .btn-info{
 	background: #008ed6;
@@ -506,3 +519,146 @@ textarea.form-control {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     }
+
+
+
+
+    /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .navbar-light .navbar-toggler-icon {
+    
+    background-color: #eee;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #fff;
+    background: none;
+}
+.banner-section .banner-inner h4 {
+    
+    margin-bottom: 10px;
+}
+.banner-section .banner-inner h1 {
+   
+    font-size: 27px;
+   
+    margin-bottom: 15px;
+}
+.banner-section .banner-inner p {
+    
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.banner-section .banner-inner .buttons .btn-info {
+    
+    margin-bottom: 20px;
+   
+}
+.feature-inner p {
+    
+    font-size: 17px;
+}
+.feature-inner h4 {
+    
+    font-size: 25px;
+    
+}
+.feature-title h1 {
+    font-weight: 500;
+    font-size: 35px;
+}
+.about-right h4 {
+   
+    text-align: center;
+}
+.about-right-header{
+	text-align: center;
+}
+.about-right-para p{
+	text-align: center;
+	font-size: 16px;
+	margin: 30px 0px;
+}
+.about-right .right-inner p {
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+}
+.about-short .col-md-5 {
+    
+    padding: 30px;
+}
+.about-short-header{
+	text-align: center;
+}
+.about-short .col-md-5 p {
+    
+    text-align: center;
+    font-size: 17px;
+    margin: 30px 0px;
+}
+.testimonial-title h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.testimonial-inner {
+   
+    padding: 0px 20px;
+   
+}
+.eye-catcher .col-md-7 p {
+   
+    font-size: 23px;
+    text-align: center;
+    
+}
+.eye-catcher .col-md-5 .btn-primary {
+    
+    margin: 20px 0px;
+    margin-left: 60px;
+}
+.eye-catcher .col-md-5 .btn-info {
+    margin-left: 50px;
+}
+.price-inner h1 {
+    
+    font-size: 30px;
+}
+.main-price {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.contact-section .contact-title h2 {
+   
+    font-size: 30px;
+}
+.main-form {
+    width: 100%;
+    background: #000;
+    margin-top: 0px;
+}
+.icon {
+    margin-top: 20px;
+    width: 100%;
+}
+.form-group .btn {
+   
+    font-size: 8px;
+    
+}
+
+
+
+
+
+
+
+
+
+  
+}
